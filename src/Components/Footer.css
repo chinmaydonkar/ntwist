@@ -1,0 +1,38 @@
+#footdiv{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #081528;
+    padding: 50px;
+}
+#footdiv >img{
+width: 12%;
+}
+
+.para{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly
+}
+p{
+    font-size: 16px;
+    color:white;
+   font-family: sans-serif;
+}
+.grey{
+    color:grey
+}
+
+/* smaller screens */
+@media (max-width: 768px) {
+    #footdiv {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .para {
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+  }
